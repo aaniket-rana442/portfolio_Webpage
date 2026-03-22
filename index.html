@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Aniket Rana — Computer Science student, developer & data enthusiast. Portfolio, projects, and contact."
+    />
+    <title>Aniket Rana · Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header" id="header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home">Aniket Rana</a>
+        <button
+          class="menu-btn"
+          type="button"
+          id="menuBtn"
+          aria-expanded="false"
+          aria-controls="siteNav"
+        >
+          Menu
+        </button>
+        <nav class="site-nav" id="siteNav" aria-label="Primary">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#credentials">Credentials</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero section" id="home">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow reveal">Computer Science · LPU</p>
+            <h1 class="reveal reveal-delay-1">
+              Building thoughtful software &amp; data-driven solutions.
+            </h1>
+            <p class="intro reveal reveal-delay-2">
+              I’m <strong>Aniket Rana</strong>, a B.Tech CSE student focused on
+              algorithms, machine learning, and full-stack web tools. I enjoy
+              turning complex problems into clear, usable systems.
+            </p>
+            <div class="hero-actions reveal reveal-delay-3">
+              <a class="btn primary" href="#projects">View projects</a>
+              <a class="btn ghost" href="cv_today.pdf" download>Download CV</a>
+              <a class="btn ghost" href="#contact">Get in touch</a>
+            </div>
+          </div>
+          <aside class="hero-card card reveal reveal-delay-2" aria-label="Profile and quick facts">
+            <figure class="hero-photo">
+              <img
+                class="profile-img"
+                src="profile_pic.jpeg"
+                alt="Portrait of Aniket Rana"
+                width="400"
+                height="500"
+                loading="eager"
+              />
+              <div class="photo-fallback" aria-hidden="true">AR</div>
+            </figure>
+            <ul class="hero-facts">
+              <li><span>University</span> Lovely Professional University</li>
+              <li><span>Program</span> B.Tech CSE · CGPA 8.87</li>
+              <li><span>Focus</span> ML, DSA, Web &amp; Data Viz</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section alt" id="about">
+        <div class="container about-grid">
+          <figure class="about-photo">
+            <img
+              class="profile-img"
+              src="profile_pic.jpeg"
+              alt=""
+              width="400"
+              height="500"
+              loading="lazy"
+            />
+            <div class="photo-fallback" aria-hidden="true">AR</div>
+          </figure>
+          <div class="about-copy">
+            <h2 class="section-title">About</h2>
+            <p class="section-lead">
+              I combine strong fundamentals in data structures and algorithms with
+              hands-on experience in regression modeling, BI dashboards, and
+              interactive web simulations. I value clean code, measurable outcomes,
+              and continuous learning.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <div class="skill-grid">
+            <div class="card">
+              <h3>Languages</h3>
+              <p class="muted">C++, Python, C, Java, JavaScript</p>
+            </div>
+            <div class="card">
+              <h3>Frameworks &amp; web</h3>
+              <p class="muted">HTML, CSS, Bootstrap, Node.js, Express.js</p>
+            </div>
+            <div class="card">
+              <h3>Databases</h3>
+              <p class="muted">MySQL, MongoDB</p>
+            </div>
+            <div class="card">
+              <h3>Tools &amp; platforms</h3>
+              <p class="muted">MS Excel, MS Word, Power BI, VS Code</p>
+            </div>
+            <div class="card span-2">
+              <h3>Soft skills</h3>
+              <p class="muted">
+                Problem-solving, time management, leadership, adaptability,
+                teamwork &amp; collaboration
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="projects">
+        <div class="container">
+          <h2 class="section-title">Projects</h2>
+          <div class="project-list">
+            <article class="card project-card">
+              <div class="project-head">
+                <h3>Laptop Price Prediction</h3>
+                <span class="meta">Oct – Nov 2025</span>
+              </div>
+              <ul class="list">
+                <li>
+                  Built a regression-based ML model on 1,300+ records with EDA,
+                  feature engineering (PPI, SSD/HDD extraction), and preprocessing.
+                </li>
+                <li>
+                  Compared Linear, Ridge, Lasso &amp; Random Forest; achieved
+                  <strong>88.57% R²</strong> with Random Forest and MAE
+                  <strong>0.1585</strong> via evaluation, cross-validation, and tuning.
+                </li>
+              </ul>
+              <p class="stack">
+                <span class="tag">Python</span>
+                <span class="tag">Pandas</span>
+                <span class="tag">NumPy</span>
+                <span class="tag">Scikit-learn</span>
+                <span class="tag">EDA</span>
+              </p>
+              <p class="project-links">
+                <a
+                  href="https://github.com/aaniket-rana442/laptop_price_prediction"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub repository</a
+                >
+              </p>
+            </article>
+
+            <article class="card project-card">
+              <div class="project-head">
+                <h3>Salary Sphere 3600</h3>
+                <span class="meta">Sept – Oct 2025</span>
+              </div>
+              <ul class="list">
+                <li>
+                  Interactive Power BI dashboard for global data science salary
+                  trends (2020–2024): roles, experience, company size, geography.
+                </li>
+                <li>
+                  DAX measures (AVG, MIN, MAX, COUNTROWS) and custom shape maps for
+                  YoY salary distribution and India vs US comparison.
+                </li>
+              </ul>
+              <p class="stack">
+                <span class="tag">Power BI</span>
+                <span class="tag">DAX</span>
+                <span class="tag">Data modeling</span>
+                <span class="tag">Visualization</span>
+              </p>
+              <p class="project-links">
+                <a
+                  href="https://github.com/aaniket-rana442/Salary-Sphere-360"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub repository</a
+                >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a
+                  href="https://app.powerbi.com/groups/me/reports/99b0b71e-4a81-40b6-a6b9-9de0e26267c8/8568a8bc2d22c6a60966?experience=power-bi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Live Preview</a
+                >
+              </p>
+            </article>
+
+            <article class="card project-card">
+              <div class="project-head">
+                <h3>Disk Scheduling Simulation</h3>
+                <span class="meta">Aug – Sept 2025</span>
+              </div>
+              <ul class="list">
+                <li>
+                  Web tool demonstrating disk structure and OS scheduling:
+                  FCFS, SSTF, SCAN, C-SCAN, LOOK, C-LOOK.
+                </li>
+                <li>
+                  Interactive visuals; module handling 100+ I/O requests per run
+                  to support learning and faster analysis.
+                </li>
+              </ul>
+              <p class="stack">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Express.js</span>
+              </p>
+              <p class="project-links">
+                <a
+                  href="https://github.com/aaniket-rana442/Disk-Scheduling-Algorithms-Webpage"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub repository</a
+                >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a
+                  href="https://disk-scheduling-algorithms-webpage.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Live Preview</a
+                >
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="credentials">
+        <div class="container">
+          <h2 class="section-title">Training, certificates &amp; achievements</h2>
+          <div class="two-col creds-wrap">
+            <div class="card">
+              <h3>Training</h3>
+              <p class="cred-title">
+                Data Structures and Algorithms · Cipher Schools
+                <span class="meta">Jun – Jul 2025</span>
+              </p>
+              <ul class="list">
+                <li>Core DSA for complex problems and performance optimization.</li>
+                <li>Time/space complexity, arrays, trees, graphs, heaps, STL.</li>
+                <a
+                    class="cert-link"
+                    href="https://cipher-other-assets.s3.ap-south-1.amazonaws.com/certificates/TC_rathoreaniket759%40gmail.com_CS2025-14751"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Paste your certificate ID from Udemy (Account → Certificates) over XXXXXXXXXXXX in index.html"
+                    >View certificate</a
+                  >
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Certificates</h3>
+              <ul class="cert-list">
+                <li>
+                  <span class="cert-name">Complete Data Science, ML, DL, NLP Bootcamp</span>
+                  <span class="meta">Udemy · Jan 2026</span>
+                  <a
+                    class="cert-link"
+                    href="https://www.udemy.com/certificate/UC-6683a457-387a-4164-8fd6-b1c7f56b7f6c/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Paste your certificate ID from Udemy (Account → Certificates) over XXXXXXXXXXXX in index.html"
+                    >View certificate</a
+                  >
+                </li>
+                <li>
+                  <span class="cert-name">Master Generative AI &amp; tools (ChatGPT &amp; more)</span>
+                  <span class="meta">Udemy · Sept 2025</span>
+                  <a
+                    class="cert-link"
+                    href="https://www.udemy.com/certificate/UC-8e0b186c-c4ec-435a-b3df-f2c663d325c7/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Paste your certificate ID from Udemy (Account → Certificates) over YYYYYYYYYYYY in index.html"
+                    >View certificate</a
+                  >
+                </li>
+                <li>
+                  <span class="cert-name">Responsive Web Design</span>
+                  <span class="meta">freeCodeCamp · Nov 2023</span>
+                  <a
+                    class="cert-link"
+                    href="https://www.freecodecamp.org/certification/fcc3dc3f902-7323-44dc-92d8-1afc182fc6b4/responsive-web-design"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >View certificate</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="card achievement-card">
+            <h3>Achievements</h3>
+            <ul class="list">
+              <li>
+                ~90% success rate across <strong>100+ DSA</strong> problems on multiple platforms.
+              </li>
+              <li>
+                HackerRank <strong>3-Star Gold</strong> in SQL; <strong>2-Star</strong> in Python, C &amp; Problem Solving.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="education">
+        <div class="container">
+          <h2 class="section-title">Education</h2>
+          <div class="edu-grid">
+            <div class="card">
+              <h3>Lovely Professional University</h3>
+              <p class="muted">Punjab, India</p>
+              <p>B.Tech · Computer Science and Engineering</p>
+              <p class="meta">CGPA 8.87 · Since Aug 2023</p>
+            </div>
+            <div class="card">
+              <h3>S.B.S Model Senior Secondary School</h3>
+              <p class="muted">Sadarpur, Punjab</p>
+              <p>Intermediate</p>
+              <p class="meta">91.40% · Apr 2022 – Mar 2023</p>
+            </div>
+            <div class="card">
+              <h3>S.B.S Model Senior Secondary School</h3>
+              <p class="muted">Sadarpur, Punjab</p>
+              <p>Matriculation</p>
+              <p class="meta">89% · Apr 2020 – Mar 2021</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container">
+          <h2 class="section-title">Contact</h2>
+          <div class="contact-grid">
+            <div class="contact-card">
+              <h3>Let’s connect</h3>
+              <p>
+                Email:
+                <a href="mailto:rathoreaniket759@gmail.com">rathoreaniket759@gmail.com</a>
+              </p>
+              <p>
+                Mobile:
+                <a href="tel:+917986545471">+91 79865 45471</a>
+              </p>
+              <p>
+                LinkedIn:
+                <a href="https://www.linkedin.com/in/aniket-rana12/" target="_blank" rel="noopener noreferrer"
+                  >linkedin.com/in/aniket-rana12</a
+                >
+              </p>
+              <p>
+                GitHub:
+                <a href="https://github.com/aaniket-rana442" target="_blank" rel="noopener noreferrer"
+                  >github.com/aaniket-rana442</a
+                >
+              </p>
+            </div>
+          </div>
+          <p class="contact-end muted">
+            Open to internships and collaborative projects in software and data.
+          </p>
+        </div>
+      </section>
+    </main>
+
+
+    <button type="button" class="scroll-top" id="scrollTop" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
